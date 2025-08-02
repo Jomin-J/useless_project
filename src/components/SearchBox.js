@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 
 const uselessSuggestions = [
   "why does nothing work",
-  "meaning of existence (spoiler: there isn't one)",
+  "meaning of existence (spoiler: there isn&apos;t one)",
   "how to be productive (wrong place)",
   "best search engines (not this one)",
   "how to find answers (try somewhere else)",
@@ -80,17 +80,17 @@ export default function SearchBox({ query, setQuery, onSearch, onConfused, isSea
     const tooltips = {
       timeWasted: {
         last_hour: "Only the freshest disappointments",
-        last_day: "Yesterday's regrets, today's problems",
-        forever: "All of eternity's meaningless queries"
+        last_day: "Yesterday&apos;s regrets, today&apos;s problems",
+        forever: "All of eternity&apos;s meaningless queries"
       },
       relevance: {
-        irrelevant: "Perfect! Exactly what you don't need",
+        irrelevant: "Perfect! Exactly what you don&apos;t need",
         less_irrelevant: "Still useless, but with style",
         utterly_random: "Chaos theory meets search algorithms"
       },
       resultType: {
         broken_links: "Links to nowhere, just like your hopes",
-        existential_memes: "Funny because it's true (and depressing)",
+        existential_memes: "Funny because it&apos;s true (and depressing)",
         placeholder_text: "Lorem ipsum dolor sit... pointlessly"
       }
     };
@@ -272,7 +272,7 @@ export default function SearchBox({ query, setQuery, onSearch, onConfused, isSea
         >
           <span className="relative z-10 flex items-center space-x-2">
             <span>🤯</span>
-            <span>I'm Feeling Confused</span>
+            <span>I&apos;m Feeling Confused</span>
           </span>
           <div className="absolute inset-0 bg-gradient-to-r from-white/0 to-white/0 group-hover:from-white/20 group-hover:to-white/10 rounded-2xl transition-all duration-300"></div>
         </button>
